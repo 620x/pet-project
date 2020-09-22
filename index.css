@@ -1,0 +1,28 @@
+.drag {
+  height: 100px;
+  width: 100px;
+  background-color: dimgray;
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+  transition: 0.2s ease;
+}
+.clicked {
+  background-color: tomato;
+  transition: 0.2s ease;
+}
+.wrapper-first {
+  background-color: gold;
+  padding: 30px;
+  margin: 30px;
+}
+.wrapper-second {
+  background-color: skyblue;
+  padding: 30px;
+  margin: 30px;
+}
+.drag-number {
+  font-size: 24px;
+  color: white;
+  font-weight: 500;
+}
